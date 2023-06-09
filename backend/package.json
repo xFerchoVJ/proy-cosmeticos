@@ -1,0 +1,26 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "description": "Aprendiendo JS Fullstack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Fernando Viveros Jimenez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.3.3",
+    "nodemailer": "^6.9.3",
+    "sequelize": "^6.32.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
